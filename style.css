@@ -196,7 +196,7 @@ cursor: pointer;
     .login{
         position: relative;
         left: 77.4vw;
-        top: -24vh;
+        top: -25.5vh;
         background-color: white;
         color: blue;
         font-weight: bolder;
@@ -219,6 +219,8 @@ cursor: pointer;
        min-height:55vh;
       
        flex-wrap: wrap;
+       position: relative;
+       top:14vh;
       
    }
    .img img{
