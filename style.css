@@ -187,13 +187,13 @@ cursor: pointer;
     }
     .cart{
         position: relative;
-        left: 44vw;
+        left: 40vw;
         top: -22.5vh;   
     }
     .login{
         position: relative;
         left: 72.4vw;
-        top: -27vh;
+        top: -27.5vh;
         background-color: white;
         color: blue;
         font-weight: bolder;
@@ -219,7 +219,7 @@ cursor: pointer;
    }
    .img img{
        height: 15vh;
-       width: 20vw;
+       width: 32vw;
        margin-top: 4px;;
       
    }
@@ -233,6 +233,7 @@ cursor: pointer;
   position: relative;
   top: 13vh;
   right: 2.5vw;
+     left:5px;
      
      
  } 
