@@ -46,9 +46,10 @@ nav ul{
     display: flex;
     position: relative;
     
-    top: 2vh;
+ top: 2vh;
    
 }
+
 nav{
     display: flex;
     margin-left: 20px;
@@ -110,7 +111,7 @@ top: 1vh;
 .cart1{
     position: relative;
     left: 88px;
-    bottom: 10px;
+    bottom: 7px;
     font-weight: bold;
     font-family: 'Ubuntu Condensed', sans-serif
 }
@@ -158,7 +159,12 @@ cursor: pointer;
     margin-right: 4px;
 
 }
-@media screen and (min-device-width : 320px) and (max-width:500px) {
+.sub{
+    position: relative;
+    bottom: 10vh;
+    left: 14px;
+}
+@media screen and  (max-width:500px) {
     header nav{
         flex-direction: column;
         height: 25vh;
@@ -167,7 +173,7 @@ cursor: pointer;
     .search{
 
         position: relative;
-       top: -2.5vh;
+        top: 1vh;
      
 
     }
@@ -177,17 +183,17 @@ cursor: pointer;
     .btn{
         position: relative;
         left: 72vw;
-        top: -37.5px;
+        top: -13.5px;
     }
     .cart{
         position: relative;
         left: 44vw;
-        top: -17.5vh;   
+        top: -22.5vh;   
     }
     .login{
         position: relative;
         left: 72.4vw;
-        top: -22vh;
+        top: -27vh;
         background-color: white;
         color: blue;
         font-weight: bolder;
@@ -200,7 +206,7 @@ cursor: pointer;
     .logo{
       
         position: relative;
-      top: 4.5vh;
+      top: 0.5vh;
     
 
     }
@@ -225,7 +231,7 @@ cursor: pointer;
    
  .sub ul {
   position: relative;
-  top: 14vh;
+  top: 13vh;
   right: 2.5vw;
      
      
@@ -234,5 +240,7 @@ cursor: pointer;
  
    
 }
+
+
 
 
