@@ -169,6 +169,9 @@ cursor: pointer;
         flex-direction: column;
         height: 25vh;
     }
+    .conteiner img{
+        height:30vh;
+    }
    
     .search{
 
@@ -192,7 +195,7 @@ cursor: pointer;
     }
     .login{
         position: relative;
-        left: 72.4vw;
+        left: 77.4vw;
         top: -27.5vh;
         background-color: white;
         color: blue;
@@ -233,7 +236,7 @@ cursor: pointer;
   position: relative;
   top: 13vh;
   right: 2.5vw;
-     left:5px;
+     left:-7px;
      
      
  } 
