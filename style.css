@@ -1,0 +1,193 @@
+:root {
+    --main-bg-color: rgb(26, 92, 192);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Righteous&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+header{
+    height: 8nh;
+    background-color: var(--main-bg-color);
+}
+nav ul li{
+    list-style: none;
+    padding: 0 13px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif
+}
+nav ul li a:hover{
+   
+    font-weight: bolder;
+   
+}
+footer{
+
+    background-color:var(--main-bg-color);
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    
+   
+  
+    
+
+}
+footer p{
+    position: relative;
+    top: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif
+}
+nav ul{
+    height: 8vh;
+    display: flex;
+    position: relative;
+    
+    top: 2vh;
+   
+}
+nav{
+    display: flex;
+    margin-left: 20px;
+
+}
+.logo{
+
+  
+}
+.logo img{
+    width: 110px;
+    position: relative;
+    top: 12px;
+
+}
+*{
+    margin: 0;padding: 0;
+    color: white;
+}
+.conteiner{
+  min-height: 45vh;
+}
+.conteiner img{
+    height: 45vh;
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    top: 2px;
+}
+.search input {
+width: 35vw;
+height: 4vh;
+text-align: right;
+position: relative;
+top: 1vh;
+
+}
+.btn{
+    background-color: var(--main-bg-color);
+    position: relative;
+    left: 10px;
+    top: 12px;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bolder;
+    background-color: cadetblue;
+}
+.cart img{
+    width: 5vh;
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+.cart1{
+    position: relative;
+    left: 88px;
+    bottom: 10px;
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif
+}
+.cart1:hover{
+ font-weight:inherit;
+ cursor: pointer;
+}
+.login{
+background-color: var(--main-bg-color);
+position: relative;
+left: 80px;
+top: 12px;
+padding: 3px;
+border-radius: 5px;
+cursor: pointer;
+}
+.login:hover{
+    font-weight: bolder;
+    background-color: cadetblue;
+}
+.items{
+    min-height: 40vh;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    top: 0vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.img img{
+    width: 15vw;
+    height: 25vh;
+    padding: 0px 3px;
+
+}
+.img p{
+    color: black;
+    position: relative;
+    
+    padding: 3px;
+    font-family: 'Righteous', cursive;
+}
+@media screen and (max-width:1000px) {
+    header nav{
+        flex-direction: column;
+    }
+   
+    .search{
+        position: relative;
+        left: 42vw;
+    }
+    .btn{
+        position: relative;
+        left: 68vw;
+    }
+    .cart{
+        position: relative;
+        left: 40vw;
+        top: 2vh;   
+    }
+    .login{
+        position: relative;
+        left: 69.4vw;
+        top: -2.2vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+
+    }
+   ul{
+       position: relative;
+       left: -30px;
+   }
+   .items
+   {
+      
+       flex-wrap: wrap;
+   }
+}
