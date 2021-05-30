@@ -59,9 +59,11 @@ nav{
   
 }
 .logo img{
-    width: 110px;
+    width: 190px;
+    height: 53px;
     position: relative;
-    top: 12px;
+    top: 2.5px;
+   
 
 }
 *{
@@ -127,7 +129,8 @@ cursor: pointer;
 }
 .login:hover{
     font-weight: bolder;
-    background-color: cadetblue;
+    background-color: rgb(114, 148, 240);
+    color: white;
 }
 .items{
     min-height: 40vh;
@@ -149,45 +152,87 @@ cursor: pointer;
     color: black;
     position: relative;
     
-    padding: 3px;
-    font-family: 'Righteous', cursive;
+    padding: 6px;
+    font-family: 'Righteous', ;
+    background-color: lavender;
+    margin-right: 4px;
+
 }
-@media screen and (max-width:1000px) {
+@media screen and (min-device-width : 320px) and (max-width:500px) {
     header nav{
         flex-direction: column;
+        height: 25vh;
     }
    
     .search{
+
         position: relative;
-        left: 42vw;
+       top: -2.5vh;
+     
+
+    }
+    .search input{
+        width: 70vw;
     }
     .btn{
         position: relative;
-        left: 68vw;
+        left: 72vw;
+        top: -37.5px;
     }
     .cart{
         position: relative;
-        left: 40vw;
-        top: 2vh;   
+        left: 44vw;
+        top: -17.5vh;   
     }
     .login{
         position: relative;
-        left: 69.4vw;
-        top: -2.2vh;
+        left: 72.4vw;
+        top: -22vh;
+        background-color: white;
+        color: blue;
+        font-weight: bolder;
     }
+    .logo img{
+        width: 190px;
+        height: 50px;
+    }
+    
     .logo{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
+      
+        position: relative;
+      top: 4.5vh;
+    
 
     }
-   ul{
-       position: relative;
-       left: -30px;
-   }
+  
    .items
    {
       
        flex-wrap: wrap;
+      
    }
+   .img img{
+       height: 15vh;
+       width: 20vw;
+       margin-top: 4px;;
+      
+   }
+   .img{
+       position: relative;
+       left: 8vw;
+   }
+   }
+   
+ .sub ul {
+  position: relative;
+  top: 14vh;
+  right: 2.5vw;
+     
+     
+ } 
+
+ 
+   
 }
+
+
