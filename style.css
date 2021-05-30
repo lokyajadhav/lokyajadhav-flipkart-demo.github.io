@@ -216,7 +216,7 @@ cursor: pointer;
   
    .items
    {
-       min-height:55vh;
+       min-height:41vh;
       
        flex-wrap: wrap;
        position: relative;
